@@ -1,0 +1,19 @@
+{
+  "name": "bigform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabler/bigform.git"
+  },
+  "author": "sabler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabler/bigform/issues"
+  },
+  "homepage": "https://github.com/sabler/bigform#readme"
+}
