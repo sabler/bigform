@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sabler/bigform/issues"
   },
-  "homepage": "https://github.com/sabler/bigform#readme"
+  "homepage": "https://github.com/sabler/bigform#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
 }
