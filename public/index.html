@@ -3,18 +3,33 @@
 <head>
 <title>Proof of Concept - Employee Discount - MK1</title>
 
+<style>
+
+.formfield {
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+}
+
+.submitbutton {
+    width: 100px;
+    font-size: 48px;
+}
+
+</style>
+
 </head>
 
 <body>
     <form id="pocform" action="#">
       <div>
-        <input type="text" name="name" id="lnfield">
+        <input type="text" name="name" class="formfield" id="lnfield">
       </div>
       <div>
-        <input type="text" name="empid" id="idfield">
+        <input type="text" name="empid" class="formfield" id="idfield">
       </div>
       <div>
-        <input type="submit" value="Request code">
+        <input type="submit" class="submitbutton" value="Request code">
       </div>
     </form>
 
