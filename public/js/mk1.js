@@ -21,7 +21,8 @@ console.log(idfield);
         .then(res => res.text())
         .then(text => {
             let returnedCode = text;
-            alert(returnedCode);
+            //alert(returnedCode);
+            codefield.innerHTML = returnedCode;
         }
         );
 
