@@ -1,13 +1,9 @@
-// No frills JS time.
-
-const fetch = require('../../node_modules/node-fetch');
 
 
 function init() {
     const pocform   = document.getElementById('pocform')
     pocform.onsubmit = getDiscountCode;
-
-    // Add Event Listener for form submit call
+    console.log("mk1 script is running");
 }
 
 function getDiscountCode() {
@@ -21,7 +17,6 @@ console.log(idfield);
         .then(res => res.text())
         .then(text => {
             let returnedCode = text;
-            //alert(returnedCode);
             codefield.innerHTML = returnedCode;
         }
         );
@@ -29,8 +24,5 @@ console.log(idfield);
         return false;
 }
 
-function updatePage(code) {
-    console.log(code);
-}
 
-//getDiscountCode('Andre','4563211');
+init();
